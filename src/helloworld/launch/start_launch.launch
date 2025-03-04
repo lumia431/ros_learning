@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="helloworld" type="hello_pub" name="hello_pub" output="screen" />
+    <node pkg="helloworld" type="hello_sub" name="hello_sub" output="screen" />
+</launch>
